@@ -27,7 +27,6 @@ class Combination {
             getCombinationSum(arr, data, i+1, end, index+1, r,targetSum); 
         } 
     } 
-   
     static void printCombination(int arr[], int n, int r,int targetSum) 
     { 
         int data[]=new int[r]; 
