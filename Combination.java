@@ -1,9 +1,8 @@
 import java.io.*; 
 import java.util.*;
-class Combination { 
-   
-	static String flag = "No";
-   
+
+class Combination {    
+    static String flag = "No";
     static void getCombinationSum(int arr[], int data[], int start, 
                                 int end, int index, int r,int targetSum) 
     { 
